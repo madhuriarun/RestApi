@@ -1,0 +1,18 @@
+1. Return user attributes in a JSON format (for the given id/ids)
+
+http://localhost/RestApi/api/getUserDetails
+
+{
+	"id" : "2,6"
+}
+
+
+
+2.  If fmt is set, return the data in a comma separated format. (for the given id/ids)
+
+http://localhost/RestApi/api/getUserDetailsByFormat
+
+{
+	"id" : "3,6",
+	"fmt" : "1"
+}
